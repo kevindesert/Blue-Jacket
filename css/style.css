@@ -58,6 +58,7 @@ nav ul
   border-style: solid;
   border-color: #364156;
   border-radius: 10px;
+  box-shadow: 8px 8px 12px #D66853;
   height: 3em;
 }
 nav ul li
@@ -77,14 +78,42 @@ nav ul li a
 /*END OF THE NAV BAR RULES*/
 
 /*ASIDE RULES*/
+.asideleft
+{
+  display: inline-block;
+  width: 20%;
+  height: 1000px;
+  margin: 0.5em 0 0.5em 0.5em;
+  text-decoration-color: white;
+  background-color: #212D40;
+}
+.asideleft article
+{
+  width: 80%;
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
 
-
-
-
+.asideleft article figure img
+{
+  border-color: #D66853;
+  border-radius: 10px;
+  width: 100%;
+}
+.asideleft p
+{
+  color: white;
+  text-align: center;
+}
 /*END OF THE ASIDE RULES*/
 
 /*TOP SECTION RULES*/
-
+div
+{
+  display: inline-block;
+  width: 78%;
+  background-color: #364156;
+}
 
 
 /*END TOP SECTION RULES*/
