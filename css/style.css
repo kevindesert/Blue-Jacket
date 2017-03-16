@@ -1,1 +1,84 @@
+/*COMMON RULES*/
+*
+{
+  margin: 0;
+}
+html
+{
+  height: 100%
+}
+body
+{
+  margin: 0;
+}
+img
+{
+  width: 100%;
+  height: 100%;
+}
 
+/*END OF THE COMMON RULES*/
+
+/*HEADER RULES*/
+header
+{
+  background-color: red;
+  width: 100%;
+}
+
+header aside
+{
+  display: inline-block;
+  background-color: green;
+  width: 20%;
+  vertical-align: middle;
+}
+
+header aside figure
+{
+  background-color: blue;
+  width: 80%;
+}
+
+header section
+{
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  background-color: orange;
+}
+
+/*END OF THE HEADER RULES*/
+
+/*NAV BAR RULES*/
+
+
+
+
+/*END OF THE NAV BAR RULES*/
+
+/*ASIDE RULES*/
+
+
+
+
+/*END OF THE ASIDE RULES*/
+
+/*TOP SECTION RULES*/
+
+
+
+/*END TOP SECTION RULES*/
+
+/*SECTION BOTTOM RULES*/
+
+
+
+
+
+/*END BOTTOM SECTION RULES*/
+
+/*FOOTER RULES*/
+
+
+/*END OF THE FOOTER RULES*/
