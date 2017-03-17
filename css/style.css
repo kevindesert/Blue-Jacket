@@ -43,6 +43,7 @@ header section
 }
 h1
 {
+  margin-left: 22%;
   color: #D66853;
 }
 /*END OF THE HEADER RULES*/
@@ -83,7 +84,7 @@ nav ul li a
   width: 20%;
   height: 1000px;
   margin: 0.5em 0 0.5em 0.5em;
-  text-decoration-color: white;
+  color: white;
   background-color: #212D40;
 }
 .asideleft h3
@@ -124,7 +125,7 @@ div
 {
   width: 60%;
   margin-top: 1em;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 .top img
 {
@@ -140,7 +141,7 @@ div
 {
   width: 80%;
   margin-top: 2em;
-  margin-left: 6.7em;
+  margin-left: 20%;
 }
 .left
 {
@@ -173,3 +174,34 @@ div
 
 
 /*END OF THE FOOTER RULES*/
+
+
+
+
+
+
+/*TARIF*/
+.table
+{
+  display: inline-block;
+  width: 75%;
+  vertical-align: top;
+}
+table
+{
+  display: inline-block;
+  border-collapse: collapse;
+  margin-left: 4em;
+  margin-top: 5em;
+}
+th, td
+{
+  border: 2px solid #D66853;
+}
+.table article p
+{
+  margin-top: 8em;
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+}
