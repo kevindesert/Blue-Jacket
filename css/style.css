@@ -245,7 +245,7 @@ th, td
 .demo iframe
 {
   width: 80%;
-  margin-left: 6em;
+  margin-left: 5em;
   margin-top: 3em;
 }
 
@@ -280,3 +280,27 @@ th, td
   margin-left: 6em;
   margin-top: 3em;
 }
+.formulaire
+{
+  text-align: center;
+  margin-top: 2em;
+  width: 100%;
+}
+label
+{
+  float: left;
+  clear: left;
+  width: 200px;
+  text-align: right;
+  margin: 1em;
+}
+input
+{
+  float: left;
+  margin: 1em;
+}
+form
+{
+  margin: auto 12em auto 12em;
+}
+/*END CONTACT PAGES*/
