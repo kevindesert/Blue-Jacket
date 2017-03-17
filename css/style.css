@@ -17,6 +17,11 @@ img
 
 /*END OF THE COMMON RULES*/
 
+
+
+
+
+
 /*HEADER RULES*/
 header
 {
@@ -48,7 +53,12 @@ h1
 }
 /*END OF THE HEADER RULES*/
 
-/*NAV BAR RULES*/
+
+
+
+
+
+/*NAV BAR RULES AND ALSO THE FOOTER RULES*/
 
 nav ul
 {
@@ -75,9 +85,15 @@ nav ul li a
   color: #212D40;
 }
 
-/*END OF THE NAV BAR RULES*/
+/*END OF THE NAV BAR RULES AND THE FOOTER RULES*/
+
+
+
+
+
 
 /*ASIDE RULES*/
+
 .asideleft
 {
   display: inline-block;
@@ -112,6 +128,12 @@ nav ul li a
 }
 /*END OF THE ASIDE RULES*/
 
+
+
+
+
+/*INDEX PAGES*/
+
 div
 { display: inline-block;
   width: 78%;
@@ -120,7 +142,9 @@ div
   margin: 0.5em 0 0.5em 0.5em;
   background-color: #364156;
 }
-/*TOP SECTION RULES*/
+
+/*SECTION RULES*/
+
 .top
 {
   width: 60%;
@@ -152,7 +176,6 @@ div
   text-align: center;
   color: white;
 }
-
 .right
 {
   width: 30%;
@@ -162,25 +185,13 @@ div
 }
 /*END TOP SECTION RULES*/
 
-/*SECTION BOTTOM RULES*/
+/*END INDEX PAGES*/
 
 
 
 
 
-/*END BOTTOM SECTION RULES*/
-
-/*FOOTER RULES*/
-
-
-/*END OF THE FOOTER RULES*/
-
-
-
-
-
-
-/*TARIF*/
+/*TARIF PAGES*/
 .table
 {
   display: inline-block;
@@ -204,4 +215,68 @@ th, td
   margin-left: 4em;
   margin-right: 4em;
   text-align: center;
+}
+/*END OF THE TARIF PAGES*/
+
+
+
+
+
+/*VIDEO DEMONSTRATION PAGES*/
+
+.demo
+{
+  display: inline-block;
+  width: 78%;
+  margin: 0.5em 0 0.5em 0.5em;
+  height: 1000px;
+  vertical-align: top;
+  background-color: #364156;
+}
+.demo h4
+{
+  text-align: center;
+  width: 80%;
+  margin-left: 5em;
+  margin-top: 2em;
+  border: 1px solid #D66853;
+  color: white;
+}
+.demo iframe
+{
+  width: 80%;
+  margin-left: 6em;
+  margin-top: 3em;
+}
+
+/*END OF VIDEO DEMONSTRATION PAGES*/
+
+
+
+
+/*CONTACT PAGES*/
+
+.maps
+{
+  display: inline-block;
+  width: 78%;
+  margin: 0.5em 0 0.5em 0.5em;
+  height: 1000px;
+  vertical-align: top;
+  background-color: #D66853;
+}
+.maps h4
+{
+  text-align: center;
+  width: 80%;
+  margin-left: 6em;
+  margin-top: 2em;
+  border: 1px solid #364156;
+  color: white;
+}
+.maps iframe
+{
+  width: 80%;
+  margin-left: 6em;
+  margin-top: 3em;
 }
